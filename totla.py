@@ -185,7 +185,7 @@ def populate_grid(job):
 
 # -------------------------------------------
     
-path='E:\\ffxiv_dps_rotation_simul\\skill_icons'
+path='ffxiv_dps_rotation_simul\\skill_icons'
 files = [os.path.join(root, name)
              for root, dirs, files in os.walk(path)
              for name in files
